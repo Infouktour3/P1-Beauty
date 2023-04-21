@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body {font-family: lato; color: blue;}
+h2 {
+font-family: oward;
+text-transform: uppercase;
+letter-spacing: 4px; }
+
+#logo {
+Float: left;
+Font-size: 200%;
+Margin-left: 30px; }
+
+#menu {
+Font-size: 110%;
+List-style-type: none;
+Letterspacing: 4px; }
+
+#logo, #menu {
+Line-height:75%; }
+
+#menu li {
+Float: right;
+Marging-right: 30px; }
+
+#menu a {
+Text-decoration: none;
+Color: inherit; }
+
+#menu a:hover {
+Border-bottom: 1px solid red; }
+
+.active {
+Border-bottom: 1px solid red;
+}
+
+#beauty-image {
+Height: 600px;
+Width: 100%;
+Background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat centre centre; 
+animation-name: beauty-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+#beauty-outer {
+Height: 600%;
+Width: 100%;
+overflow: hidden;
+position: relative;
+}
+
+@keyframes beauty-zoom{
+From{
+Transform: scale(1);}
+
+To{transform: scale(1.1);}}
+
+#cover-text, cover-text h2 {
+Color: red; }
+
+#cover-text {
+Font-size: 130%;
+Font-family: Onswald;
+Text-transform: uppercase;
+Letter-spacing: 4px;
+Width: 300px;
+Height: 200px;
+Padding-top: 40px;
+Padding-left: 10px;
+Background-color: rgba(241, 109,.7);
+Bottom: 30px;
+Right: 150px;
+Position: absolute;
+
+#beauty-london {
+Height: 600px;}
+
+#left-about {
+Padding-top: 30px;
+Width: 33%;
+Float: left:
+Background-color: blue; }
+
+#right-about {
+Padding-top: 30px;
+Width: 33%;
+Float: right:
+Background-color: silver; }
+
+#centre-about {
+Width: 33%;
+Margin: 0 auto;
+ }
+
+Hr {
+Border-top: 1px solid red;
+Width: 100%;
+Margin: 5px 0;
+}
+
+.left-about-heading {
+Line-height: 20px;
+Width: 50%;
+Float: right:
+clear: both;
+margin-bottom: 50px;}
+
+.right-about-heading {
+Line-height: 20px;
+Width: 50%;
+Float: left:
+clear: both;
+margin-bottom: 50px;}
+
+.right-about-heading h2 {
+Text-align: right;}
+
+.right-about-heading p {
+Text-align: right;}
+
+#treatment{
+Margin: 20px 0;
+Text-align: center;
+Font-size: 200px;
+
+#square-container {
+Width: 300px;
+Height: 300px;
+Padding: 30px;
+Boarder-style: solid;
+Border-color: yellow;
+Boarder-width: 1px;
+Margin: o auto;
+}
+
+#square-container-bg {
+Background: url(“http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png”) no-repeat center center;}
+Hight: 100%;
+Border-square: 50%;}
+
+#time-table {
+Background-image: url(“https://cdn1.treatwell.net/images/view/v2.i5059481.w720.h480.x57F4036F/”)
+Background-colour: pink;
+Background: no-repeat;
+Background-size: cover;
+Background-position: center;
+Width; 100%;
+Overflow:hidden; }
+
+#time-table div {
+Color: light-blue;
+Background-color: yellow;
+Width; 19:
+Height: 300px;
+Float: left;
+Padding: 30px 0 0 10px;
+Text-align: center;
+Marging: 2px;
+}
+
+#time-table h2 {
+Color: red;
+
+Footer {
+Height: 150px;
+
+.social-networks {
+Tex-aligh: centre;}
+
+.social-networks li {
+Display: inline; }
+
+.social-networks i{
+Font-size: 160px;
+Margin: 1%;
+Padding: 5%;
+Color: blue; }
+
+#photo {
+clear: both;
+line-height: 0;
+column-count: 2;
+column-gap: 0px;
+}
+#photo img {
+Width: 100%; }
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+   
+}
+
+.signup-form {margin-top: 150px ;
+color: #fff;
+background-color: rgba(60, 60, 60, 0.6);
+max-width: 400px;
+position: absolute;
+left: 10%;
+padding: 30px;}
+
+.signup-form h2 {
+color: #fafafa;
+margin-bottom: 20px;}
+
+.text-input {background: transparent; 
+color: #fafafa;
+width: 100%;
+height: 25px;
+margin: 5px 0 20px 0;
+border: 1px solid #fafafa;
+border-radius: 2px;}
+
+.text-input:hover{ border-color: #f16c6b;}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;}
+    
+.join-button:hover {background-color: #fafafa;
+    color: #f16c6b;}
+
+@media screen and (Max-width: 1393px) {
+#photo{
+Width: 65%;
+Height: 1200px;
+Margin: o auto;
+}}
+ #welcome {
+Padding: 30px 0;
+Margin-top: 0;}
+
+Left-about, #right-about{
+Clear: both;}
+
+#center-about {
+Clear: both; 
+Width: 100;
+Float: left;
+Padding: 0;}
+
+#time-table div {
+Width: 100%;
+Clear: both;
+Height: 150%;
+Boarder-style: solid;
+Border-bottom-width: 1px;
+Border-bottom-color: white;
+Padding: 0; }
+
+
+
+Hr {
+Display: none;}
+}
+
+@media screen and (max-width: 943px) {
+#menu {
+Clear: left;
+Float: left:
+Margin-left: 30px;
+Margin-bottom: 20px;
+Line-height: 25px;
+}
+#cover-text {
+Left: 0px; }
+#beauty-image {
+Width: 90%;
+Height: 200px;
+Margin: 0 auto;
+}
+.left-about-heading, .right-about-heading {
+Width: inerit; }
+.left-about-heading h2, .right-about-heading h2 {
+Width: 100px;
+Text-aligh: center; }
+.left-about-heading p, .right-about-heading p {
+Padding:0 20px 0 20px;
+Text-aligh: center; }
+
+#photo {
+Column-count: 3;
+} }
+
+@media screen and (max-width: 800px){
+#photo {
+Column-count: 2: }}
+
+#info {
+font-family: lato; color: blue;}
+float: left;}
+
+#info h2 {
+font-family: oward;
+text-transform: uppercase;
+letter-spacing: 4px; }
+font-size: 150%;}
+
+#info h3 {
+Font-size: 100%;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
