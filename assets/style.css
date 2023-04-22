@@ -7,7 +7,7 @@ text-transform: uppercase;
 letter-spacing: 4px; }
 
 #logo {
-float: right;
+float: left;
 font-size: 200%;
 margin-left: 30px; }
 
@@ -38,7 +38,7 @@ border-bottom: 1px solid red;
 #beauty-image {
 height: 600px;
 width: 100%;
-background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat centre centre; 
+background: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn1.treatwell.net%2Fimages%2Fview%2Fv2.i5059481.w720.h480.x57F4036F%2F&tbnid=s-DIRDo_M3tz4M&vet=12ahUKEwimvuG6yb3-AhUCmicCHRVMA0wQMygDegUIARDrAQ..i&imgrefurl=https%3A%2F%2Fwww.treatwell.co.uk%2Fplaces%2Fat-beauty-salon%2Fin-edgware-london-uk%2F&docid=XrTwzchKVjYxBM&w=720&h=480&q=beauty%20salon&ved=2ahUKEwimvuG6yb3-AhUCmicCHRVMA0wQMygDegUIARDrAQ") no-repeat centre centre; 
 animation-name: beauty-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
