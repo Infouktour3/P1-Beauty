@@ -20,7 +20,7 @@ letter-spacing: 4px; }
 line-height:75%; }
 
 #menu li {
-float: left;
+float: right;
 margin-right: 30px; }
 
 #menu a {
@@ -268,7 +268,7 @@ br {
 display: none;}
 
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 943px) 
 #menu {
 clear: left;
 float: left;
@@ -298,9 +298,9 @@ text-align: center; }
 column-count: 3;
 } 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px)
 #photo {
-column-count: 2; }}
+column-count: 2; }
 
 #info {
 font-family: lato; color: blue;
@@ -315,4 +315,4 @@ font-size: 150%;}
 #info h3 {
 Font-size: 100%;
 text-transform: uppercase;
-letter-spacing: 4px;}}
+letter-spacing: 4px;}
