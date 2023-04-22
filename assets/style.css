@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 
 
 body {font-family: lato; color: grey;}
@@ -9,175 +7,177 @@ text-transform: uppercase;
 letter-spacing: 4px; }
 
 #logo {
-Float: right;
-Font-size: 200%;
-Margin-left: 30px; }
+float: right;
+font-size: 200%;
+margin-left: 30px; }
 
 #menu {
-Font-size: 110%;
-List-style-type: none;
-Letterspacing: 4px; }
+font-size: 110%;
+list-style-type: none;
+letter-spacing: 4px; }
 
 #logo, #menu {
-Line-height:75%; }
+line-height:75%; }
 
 #menu li {
-Float: right;
-Marging-right: 30px; }
+float: left;
+margin-right: 30px; }
 
 #menu a {
-Text-decoration: none;
-Color: inherit; }
+text-decoration: none;
+ }
 
 #menu a:hover {
-Border-bottom: 1px solid red; }
+border-bottom: 1px solid red;
+color: yellow }
 
 .active {
-Border-bottom: 1px solid red;
+border-bottom: 1px solid red;
 }
 
 #beauty-image {
-Height: 600px;
-Width: 100%;
-Background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat centre centre; 
+height: 600px;
+width: 100%;
+background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat centre centre; 
 animation-name: beauty-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
 }
 
 #beauty-outer {
-Height: 600%;
-Width: 100%;
+height: 600%;
+width: 100%;
 overflow: hidden;
 position: relative;
 }
 
 @keyframes beauty-zoom{
-From{
-Transform: scale(1);}
+from{
+transform: scale(1);}
 
-To{transform: scale(1.1);}}
+to{transform: scale(1.1);}}
 
 #cover-text, cover-text h2 {
-Color: red; }
+color: red; }
 
 #cover-text {
-Font-size: 130%;
-Font-family: Onswald;
-Text-transform: uppercase;
-Letter-spacing: 4px;
-Width: 300px;
-Height: 200px;
-Padding-top: 40px;
-Padding-left: 10px;
-Background-color: rgba(241, 109,.7);
-Bottom: 30px;
-Right: 150px;
-Position: absolute;
+font-size: 130%;
+font-family: Onswald;
+text-transform: uppercase;
+letter-spacing: 4px;
+width: 300px;
+height: 200px;
+padding-top: 40px;
+padding-left: 10px;
+background-color: rgba(241, 109,.7);
+bottom: 30px;
+right: 150px;
+position: absolute; }
 
 #beauty-london {
-Height: 600px;}
+height: 600px;
+}
 
 #left-about {
-Padding-top: 30px;
-Width: 33%;
-Float: left:
-Background-color: blue; }
+padding-top: 30px;
+width: 33%;
+float: left;
+background: orange; }
 
 #right-about {
-Padding-top: 30px;
-Width: 33%;
-Float: right:
-Background-color: silver; }
+padding-top: 30px;
+width: 33%;
+float: right;
+background: silver; }
 
 #centre-about {
-Width: 33%;
-Margin: 0 auto;
+width: 33%;
+margin: 0 auto;
  }
 
-Hr {
-Border-top: 1px solid red;
-Width: 100%;
-Margin: 5px 0;
+br {
+border-top: 1px solid red;
+width: 100%;
+margin: 5px 0;
 }
 
 .left-about-heading {
-Line-height: 20px;
-Width: 50%;
-Float: right:
+line-height: 20px;
+width: 50%;
+float: right;
 clear: both;
 margin-bottom: 50px;}
 
 .right-about-heading {
-Line-height: 20px;
-Width: 50%;
-Float: left:
+line-height: 20px;
+width: 50%;
+float: left;
 clear: both;
 margin-bottom: 50px;}
 
 .right-about-heading h2 {
-Text-align: right;}
+text-align: right;}
 
 .right-about-heading p {
-Text-align: right;}
+text-align: right;}
 
 #treatment{
-Margin: 20px 0;
-Text-align: center;
-Font-size: 200px;
+margin: 20px 0;
+text-align: center;
+font-size: 200px; }
 
 #square-container {
-Width: 300px;
-Height: 300px;
-Padding: 30px;
-Boarder-style: solid;
-Border-color: yellow;
-Boarder-width: 1px;
-Margin: o auto;
+width: 300px;
+height: 300px;
+padding: 30px;
+border-style: solid;
+border-color: yellow;
+border-width: 1px;
+margin: o auto;
 }
 
 #square-container-bg {
-Background: url(“http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png”) no-repeat center center;}
-Hight: 100%;
-Border-square: 50%;}
+Background: url(“http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png”) no-repeat center center;
+height: 100%;
+border-top: 50%;}
 
 #time-table {
-Background-image: url(“https://cdn1.treatwell.net/images/view/v2.i5059481.w720.h480.x57F4036F/”)
-Background-colour: pink;
-Background: no-repeat;
-Background-size: cover;
-Background-position: center;
-Width; 100%;
-Overflow:hidden; }
+Background-image: url(“https://cdn1.treatwell.net/images/view/v2.i5059481.w720.h480.x57F4036F/”);
+background: pink;
+background: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+overflow:hidden; }
 
 #time-table div {
-Color: light-blue;
-Background-color: yellow;
-Width; 19:
-Height: 300px;
-Float: left;
-Padding: 30px 0 0 10px;
-Text-align: center;
-Marging: 2px;
+color: lightblue;
+background-color: yellow;
+width: 19;
+height: 300px;
+float: left;
+padding: 30px 0 0 10px;
+text-align: center;
+margin: 2px;
 }
 
 #time-table h2 {
-Color: red;
+color: red; }
 
 Footer {
-Height: 150px;
+height: 150px; }
 
 .social-networks {
-Tex-aligh: centre;}
+text-align: centre;}
 
 .social-networks li {
-Display: inline; }
+display: inline; }
 
 .social-networks i{
-Font-size: 160px;
-Margin: 1%;
-Padding: 5%;
-Color: blue; }
+font-size: 160px;
+margin: 1%;
+padding: 5%;
+color: blue; }
 
 #photo {
 clear: both;
@@ -197,8 +197,9 @@ Width: 100%; }
    
 }
 
-.signup-form {margin-top: 150px ;
-color: #fff;
+.signup-form {
+margin-top: 150px ;
+color: #ffffff;
 background-color: rgba(60, 60, 60, 0.6);
 max-width: 400px;
 position: absolute;
@@ -209,7 +210,8 @@ padding: 30px;}
 color: #fafafa;
 margin-bottom: 20px;}
 
-.text-input {background: transparent; 
+.text-input {
+background: transparent; 
 color: #fafafa;
 width: 100%;
 height: 25px;
@@ -239,77 +241,78 @@ Height: 1200px;
 Margin: o auto;
 }}
  #welcome {
-Padding: 30px 0;
-Margin-top: 0;}
+padding: 30px 0;
+margin-top: 0;}
 
-Left-about, #right-about{
-Clear: both;}
+left-about, #right-about{
+clear: both;}
 
 #center-about {
-Clear: both; 
-Width: 100;
-Float: left;
-Padding: 0;}
+clear: both; 
+width: 100;
+float: left;
+padding: 0;}
 
 #time-table div {
-Width: 100%;
-Clear: both;
-Height: 150%;
-Boarder-style: solid;
-Border-bottom-width: 1px;
-Border-bottom-color: white;
-Padding: 0; }
+width: 100%;
+clear: both;
+height: 150%;
+border-style: solid;
+border-bottom-width: 1px;
+border-bottom-color: white;
+padding: 0; }
 
 
 
-Hr {
-Display: none;}
-}
+br {
+display: none;}
+
 
 @media screen and (max-width: 943px) {
 #menu {
-Clear: left;
-Float: left:
-Margin-left: 30px;
-Margin-bottom: 20px;
-Line-height: 25px;
+clear: left;
+float: left;
+margin-left: 30px;
+margin-bottom: 20px;
+line-height: 25px;
 }
+
 #cover-text {
-Left: 0px; }
+left: 0px; }
+
 #beauty-image {
-Width: 90%;
-Height: 200px;
-Margin: 0 auto;
+width: 90%;
+height: 200px;
+margin: 0 auto;
 }
 .left-about-heading, .right-about-heading {
-Width: inerit; }
+width: 50%; }
 .left-about-heading h2, .right-about-heading h2 {
 Width: 100px;
-Text-aligh: center; }
+text-align: center; }
 .left-about-heading p, .right-about-heading p {
-Padding:0 20px 0 20px;
-Text-aligh: center; }
+padding:0 20px 0 20px;
+text-align: center; }
 
 #photo {
-Column-count: 3;
-} }
+column-count: 3;
+} 
 
 @media screen and (max-width: 800px){
 #photo {
-Column-count: 2: }}
+column-count: 2; }}
 
 #info {
-font-family: lato; color: blue;}
+font-family: lato; color: blue;
 float: left;}
 
 #info h2 {
-font-family: oward;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-transform: uppercase;
-letter-spacing: 4px; }
+letter-spacing: 4px; 
 font-size: 150%;}
 
 #info h3 {
 Font-size: 100%;
 text-transform: uppercase;
-letter-spacing: 4px;
-}
+letter-spacing: 4px;}}
