@@ -1,72 +1,76 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="assets/style.css" type="text/css" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Beauty Salon</title>
-<link  rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
-    </head>
-    <body>
-      <header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Love Running</title>
+    
+    <link href="assets/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+<body>
+    <header>
         <a href="index.html">
-          <h2 id="logo">Beauty</h2>
+            <h2 id="logo">Love Running</h2>
         </a>
         <nav>
-          <ul id="menu">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a class="active" href="gallery.html">Gallery</a></li>
-            <li><a class="active" href="contactus.html">Conatct Us</a></li>
-          </ul>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="contactus.html">Contact Us</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
         </nav>
-      </header>
-
-<section id="info">
-<h2>Beauty Salon</h2>
-<h3>Address: 22 Beauty Street, London (UK)</h3>
-<h3>Email: beautysalon@gmail.com</h3>
-<h3>Tel: 073826734</h3>
-
-</section>
-
-
-<section class="form-section">
+    </header>
+  
+       
+  <section class="form-section">
       
-  <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
-  <h2>Let is Get Scheduled - Signed up! <i class="fa-solid fa-calendar-lines-pen"></i> </h2> 
+  <form class="get-in-touch" method="post" >
+  <h2>Let's get you in touch!<i class="fas fa-heartbeat"></i></h2> 
   
   <label for="fname">First Name</label>
-  <input type="text" name="first_name" id="fname"  required/>
-  <br>  
+  <input class="text-input" type="text" name="first_name" id="fname"  required/>
+  
+  
   <label for="lname">Last Name</label>
-  <input type="text" name="last_name" id="lname" required/>
-<br> 
- <label for="email">Email Address</label>
-  <input type="email" id="email" name="email_address"  required/>
-<hr>
- <label for="road">Treatment</label>
- <input type="radio" id="treatment" name="schedule" value="treatment" required/>
- <label for="trail">Consultation</label>
- <input type="radio" id="consultation" name="appointment" value="consultation"/>
+  <input class="text-input" type="text" name="last_name" id="lname" required/>
+  
+  
+  <label for="email">Email Address</label>
+  <input class="text-input" type="email" id="email" name="email_address"  required/>
+
+ 
+ <label for="consultation">Consultation</label>
+ <input type="radio" id="consultation" name="beauty_salon" value="consultation" required/>
+ 
+ 
+ <label for="treatmentsl">Treatments</label>
+ <input type="radio" id="treatments" name="beauty_salon" value="treatments"/>
+ 
+ 
  <label for="both">Both</label>
- <input type="radio" id="both" name="appointment" value="both"/>
- <input type="submit" value="Let's Get Scheduled!">
-<input class="join-button"  type="submit" value="Let's Run!">
+ <input type="radio" id="both" name="beauty_salon" value="both"/>
+ 
+ <input class="join-button"  type="submit" value="Let's Booking">
  
   </form>
-   </section>
-
-<footer>
-<h4> Social Media and copyright reserved</h4>
-<ul class="social-networks">
-<li>
-<a href="https://wwww.facebook.com" target="_blank"> <i class="fa-brands fa-square-facebook"></i></a></li>
-
-<li><a href="https://wwww.instagram.com" target="_blank"> <i class="fa-brands fa-square-instagram"></i></a></li>
-
-<li><a href="https://wwww.twitter.com" target="_blank"> <i class="fa-brands fa-square-twitter"></i></a></li>
-</ul>
-
- </footer>
-<body/>
+  
+   </section> 
+    <footer>
+        <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/3982258271.js"></script>
+</body>
 </html>
