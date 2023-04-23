@@ -8,9 +8,7 @@
 
 body{
     font-family: Lato, sans-serif;
-    color: #3a3a3a;
-}
-
+    color: #3a3a3a;}
 
 h1, h2{
     font-family: Oswald, sans-serif;
@@ -19,16 +17,28 @@ h1, h2{
     color: #252525;
 }
 
+#title {
+    
+        height: 200px;
+        width: 100%;
+        background: pink;}
+
+
 #logo{
     float: left;
-    font-size: 280%;
+    font-size: 400%;
     margin-left: 30px;
+    color: white;
+    padding: 20px;
 }
 
 
 #menu{
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
+    color: white;
+    font-weight: bold;
+    padding: 40px;
 }
 
 #logo, #menu{
@@ -39,48 +49,63 @@ h1, h2{
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    border-bottom-color: pink;
+    
+    
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+    border: 1px  1px 1px 1px solid black;
 }
 
 #menu a:hover{
-    border-bottom: 1px solid yellow;
+    border-bottom: 4px solid greenyellow;
 }
 
-.active{
-    border-bottom: 1px solid #3a3a3a;
+#beauty-outer {
+    height:300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#beauty-image {
+    height:300px;
+    width: 100%;
+    background: url('C:\Users\LENOVO\Desktop\Image Web.jpg') no-repeat center center;
 }
 
 
-/* Club ethos */
+#welcome-section {
+    height: 400px;
+    width: 100%;
+    background: lightgoldenrodyellow;}
+    
 
-#welcome-section{
-    height: 600px;
+}
+#welcome-section  h2 {
+    float: center;
 }
 
 #left-about{
     padding-top: 30px;
     width: 33%;
     float: left;
+    letter-spacing: 1px;
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
+    letter-spacing: 1px;
 }
 
-#square {
-    width: 33%;
-    margin: 0 auto;
-}
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 3px solid pink;
     width: 100%;
     margin: 5px 0;
 }
@@ -109,35 +134,9 @@ hr {
     text-align: right;
 }
 
-/* Club ethos center image */
-
-#welcome {
-    margin: 20px 0;
-    text-align: center;
-    font-size: 280%;
-}
-
-#square-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #cccccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#square-cover-bg {
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/video-mask.png") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-
 
 #times{
-    background-image: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
+    background-image: url('C:\Users\LENOVO\Downloads\pexels-delbeautybox-853427.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -147,9 +146,9 @@ hr {
 
 #times div {
     color: #fafafa;
-    background-color: rgba(0,0,0, .6);
+    background-color: lightsteelblue;
     width: 20%;
-    height: 300px;
+    height: 400px;
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
@@ -163,13 +162,16 @@ hr {
 
 
 
-footer{
-    height: 150px;
+#footer{
+    height: 200px;
+    background: pink;
+    text-align: center;
+    color: black;
 }
 
-.social-networks{
+.social-networks ul{
     text-align: center;
-
+    color: black;
 }
 
 .social-networks li{
@@ -196,7 +198,6 @@ footer{
     width: 100%;
 }
 
-https://cdn1.treatwell.net/images/view/v2.i5059481.w720.h480.x57F4036F/
 
 .form-section {
     clear: left;
@@ -281,46 +282,3 @@ border-radius: 2px;}
     }
 }
 
-@media screen and (max-width: 950px){
-
-    #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px; 
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text{
-        left:0px;
-    }
-
-    #welcome-section {
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading{
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
-
-    #photo{
-        column-count: 3;
-    } }
-
-@media screen and (max-width: 800px){
-    #photo{
-        column-count: 2;
-    }
-}
