@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
-}
 
 body{
     font-family: Lato, sans-serif;
@@ -24,15 +19,16 @@ h1, h2{
         background: pink;}
 
 
-#logo{
+#logo {
     float: left;
     font-size: 400%;
     margin-left: 30px;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 #logo a:hover {
-    color: rgb(208, 224, 116);
+    color: white;
+    
 }
 
 
@@ -41,7 +37,7 @@ h1, h2{
     letter-spacing: 6px;
     color: white;
     font-weight: bold;
-    padding: 40px;
+    padding: 80px;
 }
 
 #logo, #menu{
@@ -52,18 +48,17 @@ h1, h2{
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    
-    
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: white;
     border: 1px  1px 1px 1px solid black;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 4px solid greenyellow;
+    
 }
 
 #beauty-outer {
@@ -71,18 +66,18 @@ h1, h2{
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: orange;
+    background: orange;
 }
 
 #beauty-image {
     height:300px;
     width: 100%;
     background: url('C:\Users\LENOVO\Desktop\Image Web.jpg') no-repeat center center;
-    
 }
 
 
 #welcome-section {
+    text-align: center;
     float: center;
     height: 400px;
     width: 100%;
@@ -92,18 +87,20 @@ h1, h2{
 #welcome-section  h2 {
     float: center;
     clear:both;
+    color: pink;
 }
 
 #left-about{
-    padding-top: 20px;
-    width: 50%;
+    text-align: left;
+    padding-top: 10px;
     float: left;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
+    padding: 20px;
 }
 
 #right-about {
-    padding-top: 20px;
-    width: 50%;
+    text-align: right;
+    padding-top: 10px;
     float: right;
     letter-spacing: 1px;
 }
@@ -117,7 +114,20 @@ hr {
 
 .left-about-heading {
     width: 50%;
-    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.left-about-heading h2 {
+    width: 50%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.left-about-heading p {
+    width: 50%;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -125,7 +135,6 @@ hr {
 
 .right-about-heading {
     width: 50%;
-    float: left;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
@@ -133,10 +142,12 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+    float: right;
 }
 
 .right-about-heading h2 {
     text-align: right;
+    float: right;
 }
 
 
@@ -227,14 +238,13 @@ hr {
     width: 100%;   
 }
 
-
 .form-section {
     clear: left;
     background: url('C:\Users\LENOVO\Desktop\Image Web.jpg');
     background-size: cover;
     background-position: center;
     height: 900px;
-   
+  
 }
 
 .get-in-touch {margin-top: 150px ;
