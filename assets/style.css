@@ -21,7 +21,7 @@ h1, h2{
     float: left;
     font-size: 400%;
     margin-left: 30px;
-    color: white;
+    color: yellow;
     padding: 10px;
 }
 #logo a:hover {
@@ -164,6 +164,14 @@ text-align: right;
 #times h2 {
     color: gray;
 }
+
+h3 .arrow {
+    color: lightcoral;
+}
+h3 .clock {
+    color: lightcoral;
+}
+
 
 
 #photo {
