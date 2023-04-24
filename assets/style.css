@@ -14,6 +14,7 @@ h1, h2{
         height: 200px;
         width: 100%;
         background: pink;}
+        
 
 
 #logo {
@@ -21,12 +22,12 @@ h1, h2{
     float: left;
     font-size: 400%;
     margin-left: 30px;
-    color: yellow;
+    color: gray;
     padding: 10px;
+
 }
-#logo a:hover {
-    color: white;
-    
+#title #logo a:hover {
+    color:  white;  
 }
 
 
@@ -51,7 +52,6 @@ h1, h2{
 #menu a {
     text-decoration: none;
     color: white;
-    border: 1px  1px 1px 1px solid black;
 }
 
 #menu a:hover {
@@ -83,6 +83,7 @@ h1, h2{
 
 #welcome h1 {
     color: gray;
+    
 }
 
 
@@ -91,7 +92,8 @@ h1, h2{
     background-size: cover;
     background-position: center;
     width: 100%;
-    overflow: hidden;}
+    overflow: hidden; }
+
 
 #welcome-1 div {
     color: #fafafa;
@@ -99,7 +101,7 @@ h1, h2{
     width: 50%;
     height: 400px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 20px 10px 10px 10px;
     text-align: center;
     box-sizing: border-box;
 }
@@ -108,19 +110,33 @@ h1, h2{
     text-align: center;
 color: lightcoral;
 padding-top: 6;
+
 }
 
 #welcome-1 p {
-    padding: 10%;
+    padding: 6%;
     color: lightseagreen;
     letter-spacing: 2px 2px 2px 2px;
-    text-align: left;
-    word-spacing: 2px;
-letter-spacing: 2px;
+    text-align: justify;
+    word-spacing: 4px;
+text-transform: capitalize;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+    line-height: 1.5;
+    border: 3px pink solid;
 }
-#welcome-1 p ok {
-text-align: right;
-}
+
+#welcome-1 .ok {
+text-align: justify;
+text-decoration-style: double;
+text-decoration: ariel;
+padding:6%;
+word-spacing: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
 
 #welcome-1 hr {
     border-top: 4px solid pink;
@@ -165,13 +181,6 @@ text-align: right;
     color: gray;
 }
 
-h3 .arrow {
-    color: lightcoral;
-}
-h3 .clock {
-    color: lightcoral;
-}
-
 
 
 #photo {
@@ -199,24 +208,32 @@ h3 .clock {
     width: 100%;   
 }
 
+#form {
+    padding: 200px 200px;
+    height: 400px;
+    width: 100%;
+overflow: hidden;}
 
 .get-in-touch {
-    margin-top: 200px ;
+    margin-top: 4px ;
     background-color: greenyellow;
     background-size: cover;
-    background-position: center;
     border: 1px solid blue;   
-max-width: 20px;
-position: absolute;
-float: right;
-padding: 20px;}
+max-width: 600px;
+position: relative;
+float: left;
+padding: 20px 20px 20px 20px; 
+}
    
+
+
 
 .get-in-touch h2 {
 color: #fafafa;
 margin-bottom: 20px;}
 
-.text-input {background: transparent; 
+.text-input {
+background: transparent; 
 color: #fafafa;
 width: 100%;
 height: 25px;
