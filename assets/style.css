@@ -20,6 +20,7 @@ h1, h2{
 
 
 #logo {
+    text-transform: none;
     float: left;
     font-size: 400%;
     margin-left: 30px;
@@ -66,7 +67,7 @@ h1, h2{
     width: 100%;
     overflow: hidden;
     position: relative;
-    background: orange;
+    background: lightcyan;
 }
 
 #beauty-image {
@@ -75,80 +76,57 @@ h1, h2{
     background: url('C:\Users\LENOVO\Desktop\Image Web.jpg') no-repeat center center;
 }
 
-
-#welcome-section {
+#welcome {
     text-align: center;
-    float: center;
+    background-color: lightyellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#welcome-1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+background-color: lightgrey;
+    clear: both;
     height: 400px;
-    width: 100%;
-    background: lightgoldenrodyellow;}
-    
-
-#welcome-section  h2 {
-    float: center;
-    clear:both;
-    color: pink;
-}
-
-#left-about{
-    text-align: left;
-    padding-top: 10px;
+    width: 50%;
     float: left;
-    letter-spacing: 3px;
-    padding: 20px;
+    padding: 0px;
+    text-align: left;
 }
-
-#right-about {
-    text-align: right;
-    padding-top: 10px;
-    float: right;
-    letter-spacing: 1px;
-}
-
 
 hr {
-    border-top: 3px solid pink;
-    width: 100%;
-    margin: 5px 0;
-}
-
-.left-about-heading {
+    border-top: 4px solid pink;
     width: 50%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
+    margin: 5px;
+    padding: 0px;
 }
 
-.left-about-heading h2 {
+
+#welcome-2 {
+    overflow: hidden;
+background: lightgrey;
+    clear: both;
+    height: 400px;
     width: 50%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.left-about-heading p {
-    width: 50%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading {
-    width: 50%;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-.right-about-heading p {
-    text-align: right;
     float: right;
+    padding: 0px;
+    text-align: right;
+    
+}
+#welcome-2 h2{
+    text-align: right;
 }
 
-.right-about-heading h2 {
-    text-align: right;
-    float: right;
+
+#welcome-2  p{
+    text-align: right; 
 }
+
+
+
+
 
 
 #times{
@@ -189,12 +167,14 @@ hr {
 
 
 #footer{
-    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100px;
     background: pink;
     text-align: center;
     color: black;
     width: 100%;
-    column-fill: 200px;
 }
 
 .social-networks ul{
@@ -209,8 +189,9 @@ hr {
 .social-networks i{
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color: #3a3a3a;
+    letter-spacing: 4px;
 }
 
 #photo {
@@ -291,10 +272,6 @@ border-radius: 2px;}
         margin: 0 auto;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin-top: 0;
-    }
 
     #left-about, #right-about {
         width:100%;
@@ -302,12 +279,7 @@ border-radius: 2px;}
         padding: 0;
     }
 
-    #square{
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
+    
 
     #times div {
         width: 100%;
@@ -316,8 +288,6 @@ border-radius: 2px;}
         padding: 0;
     }
 
-    hr {
-        display: none;
-    }
+    
 }
 
