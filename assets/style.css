@@ -16,16 +16,20 @@ h1, h2{
         background: pink;}
         
 
-
 #logo {
     text-transform: none;
     float: left;
     font-size: 400%;
+    margin-top: 40px;
     margin-left: 30px;
-    color: gray;
-    padding: 10px;
+    color: pink;
+    padding: 9px;
+    border: 6px solid yellow;
+    border-radius: 10px;
+    background-color: white;
 
 }
+
 #title #logo a:hover {
     color:  white;  
 }
@@ -79,41 +83,44 @@ h1, h2{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    height: 200%;
+    width: 100%;
+    padding: 2px;
 }
 
-#welcome h1 {
-    color: gray;
-    
-}
-
-
-#welcome-1 {
+#welcome {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+   
     width: 100%;
     overflow: hidden; }
 
+    #welcome h1 {
+        color: gray;
+        
+    }
 
-#welcome-1 div {
+
+#welcome div {
     color: #fafafa;
     background-color: lightyellow;
     width: 50%;
     height: 400px;
     float: left;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 2px 10px;
     text-align: center;
     box-sizing: border-box;
 }
 
-#welcome-1 h2{
+#welcome h2{
     text-align: center;
 color: lightcoral;
 padding-top: 6;
 
 }
 
-#welcome-1 p {
+#welcome p {
     padding: 6%;
     color: lightseagreen;
     letter-spacing: 2px 2px 2px 2px;
@@ -127,23 +134,39 @@ font-size: 16px;
     border: 3px pink solid;
 }
 
-#welcome-1 .ok {
-text-align: justify;
-text-decoration-style: double;
-text-decoration: ariel;
-padding:6%;
-word-spacing: 4px;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-
-#welcome-1 hr {
+#welcome hr {
     border-top: 4px solid pink;
     width: 100%;
     margin: 5px 5px;
     float: center;
 }
+
+#welcome-1 {background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    column-count: 2;
+    width: 100%;
+    overflow: hidden; }
+
+    #welcome-1 h2{
+        text-align: center;
+    color: lightcoral;
+    padding-top: 10%;
+    
+    }
+    
+    #welcome-1 p {
+        padding: 6%;
+        color: lightseagreen;
+        border: 3px pink solid;
+        margin: 2%;
+        overflow: hidden;
+        inset-inline: block;
+    }
+    welcome-1 img {
+        width: 50%;
+        height: 100%
+    }
 
 
 #times{
@@ -183,8 +206,11 @@ word-spacing: 4px;
 
 
 
+
+
+
 #photo {
-    height: 300px;
+    height: 200px;
     clear: both;
     line-height: 0;
     column-count: 3;
@@ -192,7 +218,7 @@ word-spacing: 4px;
 }
 
 #photo-1 {
-    height: 300px;
+    height: 200px;
     clear: both;
     line-height: 0;
     column-count: 3;
@@ -200,17 +226,17 @@ word-spacing: 4px;
 }
 
 #photo img{
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 #photo-1 img {
-    height: 300px;
+    height: 200px;
     width: 100%;   
 }
 
 #form {
-    padding: 200px 200px;
-    height: 400px;
+    padding: 100px 100px;
+    height: 100px;
     width: 100%;
 overflow: hidden;}
 
@@ -267,9 +293,27 @@ border-radius: 2px;}
         width: 100%;
     }
     
+    #logo-footer {
+        text-transform: none;
+        float: left;
+        font-size: 80%;
+        margin-top: 40px;
+        margin-left: 30px;
+        color: pink;
+        padding: 2px;
+        border: 6px solid yellow;
+        border-radius: 10px;
+        background-color: white;
+        clear:both;
+        overflow:hidden;
+    
+    }
+
+
     .social-networks ul{
         text-align: center;
         color: black;
+        
     }
     
     .social-networks li{
@@ -277,11 +321,13 @@ border-radius: 2px;}
     }
     
     .social-networks i{
+        text-align: center;
         font-size: 160%;
-        margin: 1%;
-        padding: 1%;
+        margin: 2%;
+        padding: 0%;
         color: #3a3a3a;
-        letter-spacing: 4px;
+        letter-spacing: 8px;
+        overflow:hidden;
     }
 
     @media screen and (max-width: 1200px){
