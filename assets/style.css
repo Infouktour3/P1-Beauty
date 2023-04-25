@@ -1,12 +1,18 @@
 body{
-    font-family: Lato, sans-serif;
-    color: pink}
+    font-family: Lato, sans-serif;}
 
 h1, h2{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+}
+#head {
+    clear:both;
+    overflow: hidden;
+    height: 200%;
+    width: 100%;
+    background-color: pink;
 }
 
 #title {
@@ -26,14 +32,14 @@ h1, h2{
             font-size: 400%;
             margin-top: 50px;
             margin-left: 30px;
-            color: lightsteelblue;
+            color: pink;
             padding: 4px;
             border: 6px solid yellow;
             border-radius: 40px;
             background-color:bisque;
         }
         #title h2:hover{
-            color:yellow;
+            color:white;
 
         }
         #title  a:hover{
@@ -98,6 +104,7 @@ h1, h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: lightgoldenrodyellow;
     width: 99.8%;
     overflow: hidden; }
 
@@ -108,7 +115,7 @@ h1, h2{
 
 
 #welcome div {
-    background-color: lightyellow;
+    
     width: 50%;
     height: 400px;
     float: left;
@@ -148,6 +155,7 @@ font-size: 16px;
     #picture {
         background-repeat: no-repeat;
         background-size: cover;
+        background-color: lightgoldenrodyellow;
         width: 100%;
         column-count: 2;
         overflow: hidden; 
@@ -192,17 +200,20 @@ font-size: 16px;
     
 }
 #times h2 {
-    color: orange;
+    color: red;
 }
 
 #times p{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
-    color: orange;
+    color: yellow;
+}
+#times h3{
+    font-size: 25px;
 }
 #times h4 {
-    color: yellow;
+    color: gray;
 }
 
 #map {
@@ -239,42 +250,53 @@ font-size: 16px;
 }
 #photo-1 img {
     height: 200px;
-    width: 100%;   
-}
+    width: 100%;   }
+
+    #form {
+        padding: 100px;
+        height: 400px;
+       max-width: 100%;
+    overflow: hidden;
+    clear:both;
+    background-color: lightgoldenrodyellow;
+    }
+    #form h2{
+        color: white;
+    }
+    
 #form div {
     float: right;
     overflow:hidden;
-    width: 40%;
+height: 74%;
     border: 4px solid yellowgreen;
-    padding: 80px;
+    padding: 20px;
     clear:both;
-    max-width: 300px;
-    margin-right: 400px;
-    text-align: justify;
+    max-width: 600px;
+    margin-right: 40px;
+    text-align: left;
+    padding: 40px;
+    background-color:lightgoldenrodyellow;
+    border-radius: 20%;
 }
 #form span {
     color: red;
 }
-#form h2 {
-    color:lightseagreen;
+#form h3 {
+    color:orange;
 
-}
-#form {
-    padding: 100px;
-    height: 400px;
-    width: 100%;
-overflow: hidden;
 }
 
 .get-in-touch {
+    overflow:hidden;
     margin-top: 1px ;
     background-color:lightgreen;
     background-size: cover;
     border: 1px solid blue;   
-max-width: 400px;
+max-width: 700px;
+height: 400px;
 position: relative;
 float: left;
-padding: 20px 20px 20px 20px; 
+padding: 20px ; 
 }
 
 .get-in-touch h2 {
