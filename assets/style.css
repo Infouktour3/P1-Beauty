@@ -13,6 +13,7 @@ h1, h2{
     height: 200%;
     width: 100%;
     background-color: pink;
+    background: radial-gradient(circle, black, white)
 }
 
 #title {
@@ -21,7 +22,7 @@ h1, h2{
     clear: both;
         height: 200px;
         width: 100%;
-        background: pink;
+        background: radial-gradient(circle, pink, gray);
     overflow: hidden;
 }
         
@@ -29,17 +30,17 @@ h1, h2{
         #logo {
             text-transform: none;
             float: left;
-            font-size: 400%;
-            margin-top: 50px;
-            margin-left: 30px;
-            color: pink;
+            font-size: 250%;
+            margin-top: 40px;
+            margin-left: 40px;
+            color:white;
             padding: 4px;
-            border: 6px solid yellow;
+            border: 6px solid lightgoldenrodyellow;
             border-radius: 40px;
-            background-color:bisque;
+            background-color:pink;
         }
         #title h2:hover{
-            color:white;
+            color:lightsalmon;
 
         }
         #title  a:hover{
@@ -48,11 +49,11 @@ h1, h2{
 
 
 #menu{
-    font-size: 110%;
+    font-size: 90%;
     letter-spacing: 6px;
     color: white;
     font-weight: bold;
-    padding: 80px;
+    padding: 60px;
 }
 
 #logo, #menu{
@@ -71,7 +72,7 @@ h1, h2{
 }
 
 #menu a:hover {
-    border-bottom: 4px solid greenyellow;
+    border-bottom: 4px solid lightgoldenrodyellow;
     
 }
 
@@ -80,7 +81,7 @@ h1, h2{
     width: 100%;
     overflow: hidden;
     position: relative;
-    background: lightcyan;
+    background: lightgray;
 }
 
 #beauty-image {
@@ -189,8 +190,8 @@ font-size: 16px;
 
 #times div {
     float: left;
-    color: #fafafa;
-    background-color: lightsteelblue;
+    color: white;
+    background-color: lightgrey;
     width: 33.33%;
     height: 350px;
     padding: 60px 0px 0px 20px;
@@ -200,19 +201,21 @@ font-size: 16px;
     
 }
 #times h2 {
-    color: red;
+    font-size: 25px;
+    color: lightcoral;
 }
 
 #times p{
     font-weight: bold;
     font-size: 25px;
     position: relative;
-    color: yellow;
+    color: whitesmoke;
 }
 #times h3{
-    font-size: 25px;
+    font-size: 20px;
 }
 #times h4 {
+    font-size: 15px;
     color: gray;
 }
 
@@ -268,10 +271,10 @@ font-size: 16px;
     float: right;
     overflow:hidden;
 height: 74%;
-    border: 4px solid yellowgreen;
+    border: 4px solid lightgreen;
     padding: 20px;
     clear:both;
-    max-width: 600px;
+    max-width: 800px;
     margin-right: 40px;
     text-align: left;
     padding: 40px;
@@ -282,21 +285,21 @@ height: 74%;
     color: red;
 }
 #form h3 {
-    color:orange;
+    color: gray;
 
 }
 
 .get-in-touch {
     overflow:hidden;
-    margin-top: 1px ;
+    margin-top: 0px ;
     background-color:lightgreen;
     background-size: cover;
     border: 1px solid blue;   
-max-width: 700px;
+max-width: 550px;
 height: 400px;
 position: relative;
 float: left;
-padding: 20px ; 
+padding: 30px ; 
 }
 
 .get-in-touch h2 {
@@ -338,7 +341,7 @@ border-radius: 2px;}
         overflow: hidden;
         height: 100px;
         width: 98.8%;
-        background: pink;
+        background: radial-gradient(circle, pink, gray);
         text-align: center;        
     }
     
@@ -350,7 +353,7 @@ border-radius: 2px;}
         margin-left: 30px;
         color: pink;
         padding: 2px;
-        border: 6px solid yellow;
+        border: 6px solid lightgoldenrodyellow;
         border-radius: 10px;
         background-color: white;
         clear:both;
@@ -391,15 +394,56 @@ border-radius: 2px;}
         overflow:hidden;
     }
     .social-networks i:hover{
-        color: greenyellow;
+        color:whitesmoke;
     }
 
-    @media screen and (max-width: 1200px){
-        #welcome-section {
-            width: 65%;
-            height: 1200px;
-            margin: 0 auto;
-        }
     
-    }
 
+/* Define styles for small screens */
+@media screen and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+    
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .column {
+      width: 100%;
+    }
+  }
+  
+  /* Define styles for medium screens */
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+    
+    .container {
+      width: 80%;
+      padding: 20px;
+    }
+    
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Define styles for large screens */
+  @media screen and (min-width: 1200px) {
+    body {
+      font-size: 20px;
+    }
+    
+    .container {
+      width: 60%;
+      padding: 30px;
+    }
+    
+    .column {
+      width: 33.33%;
+    }
+  }
+  
