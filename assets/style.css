@@ -40,7 +40,7 @@ h1, h2{
             border-radius: 40px;
             background-color:pink;
         }
-        #title h2:hover{
+        #title h1:hover{
             color:lightsalmon;
 
         }
@@ -154,17 +154,14 @@ font-size: 16px;
     float: center;
 }
 
-    #picture {
-        background-repeat: no-repeat;
-        background-size: cover;
+    #picture div {
         background-color: lightgoldenrodyellow;
+        height: 300%;
         width: 100%;
-        column-count: 2;
-        overflow: hidden; 
-            margin: 0%;}
+            margin: 5%;}
 
-            #picture div { 
-                padding: 20px 10px 2px 10px;
+            #picture h2 { 
+                padding: 20px 10px 10px 20px;
                 width: auto; }
 
          #picture p {
