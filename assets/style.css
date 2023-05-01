@@ -99,11 +99,13 @@
 }
 
 #beauty-image {
+    background-repeat: no-repeat;
+        background-size: cover;
+     margin: 0%;
     overflow: hidden;
     position: relative; 
     height:300px;
     width: 100%;
-    
 }
 
 #welcome {
@@ -169,26 +171,33 @@ font-size: 16px;
     float: center;
 }
 
-    #picture {
+#apollo {
+    column-count: 2;
+    padding: 10px;
+    background-color: beige;
+}
+    #picture h2 {
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: lightgoldenrodyellow;
         width: 100%;
         overflow: hidden; 
             margin: 0%;}
 
 
-         #picture-1 {
+         #picture-1 h2 {
             background-repeat: no-repeat;
             background-size: cover;
-            background-color: lightgoldenrodyellow;
             width: 100%;
             overflow: hidden; 
                 margin: 0%;}
          
         
         #picture img {
-            column-count: 2;
+            width: 100%;
+            height: 800%;
+        }
+
+        #picture-1 img {
             width: 100%;
             height: 800%;
         }
@@ -261,7 +270,7 @@ font-size: 16px;
     column-count: 3;
     column-gap: 0px;
 }
-#photo-2 {
+#photo2 {
     height: 200px;
     clear: both;
     line-height: 0;
@@ -277,6 +286,13 @@ font-size: 16px;
     height: 200px;
     width: 100%;   }
 
+    #photo2 img {
+        height: 200px;
+        width: 100%;   } 
+
+
+
+
     #form {
         padding: 100px;
         height: 400px;
@@ -284,10 +300,9 @@ font-size: 16px;
     overflow: hidden;
     clear:both;
     background-color: lightgoldenrodyellow;
+    word-spacing: 5%;
     }
-    #form h2{
-        color: white;
-    }
+   
     
 #form div {
     float: right;
@@ -302,13 +317,13 @@ height: 74%;
     padding: 40px;
     background-color:lightgoldenrodyellow;
     border-radius: 20%;
+    
 }
 #form span {
     color: red;
 }
 #form h3 {
     color: gray;
-
 }
 
 .get-in-touch {
