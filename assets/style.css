@@ -208,6 +208,11 @@ font-size: 16px;
     box-sizing: border-box;
 }
 #times img {
+    background-repeat: no-repeat;
+    background-size: cover;
+ margin: 0%;
+overflow: hidden;
+position: relative; 
     height:250px ;
     width: 400px;}
 
