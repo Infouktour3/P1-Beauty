@@ -223,20 +223,15 @@ font-size: 16px;
     color: gray;
 }
 
-#times  img{
-    height: auto;  
-    width: auto;
-  }
-
 
 #photo {
     height: 200px;
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0px;
-    margin: 0.5%;
-   
+    column-gap: 3px;
+    margin:0.3%;  
+    
 }
 
 #photo-1 {
@@ -244,8 +239,9 @@ font-size: 16px;
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0px;
-    margin: 0.5% ;
+    column-gap: 3px;
+    margin:0.3%;  
+    
 
 }
 #photo2 {
@@ -253,12 +249,12 @@ font-size: 16px;
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0px;
-    margin: 0.5% ;
+    column-gap: 3px; 
+    margin:0.3%;  
 }
 
 #photo img{
-    display:inline-block;
+   
     height: 200px;
     width: 100%;
     margin:0.5%;
@@ -272,6 +268,7 @@ margin:0.5%; }
     #photo2 img {
         height: 200px;
         width: 100%; 
+        margin: 0.5%;
      } 
 
     #form {
