@@ -207,9 +207,9 @@ font-size: 16px;
     border: 2px solid white;
     box-sizing: border-box;
 }
-.centro img {
+#times img {
     height:250px ;
-    width: 250px;}
+    width: 400px;}
 
 #times h2 {
     font-size: 25px;
@@ -284,7 +284,7 @@ margin:0.5%; }
        max-width: 100%;
     overflow: hidden;
     clear:both;
-    background-color: lightgoldenrodyellow;
+    background-color: orange;
   background-size: cover;
     word-spacing: 5%;
     }
@@ -294,14 +294,13 @@ margin:0.5%; }
     float: right;
     overflow:hidden;
 height: 95%;
-    border: 6px solid orange;
+    border: 6px solid green;
     padding: 10px;
     clear:both;
     max-width: 800px;
     margin-right: 40px;
     text-align: left;
     padding: 40px;
-    background-color:lightgoldenrodyellow;
     border-radius: 20%;
 }
 
@@ -317,7 +316,7 @@ height: 95%;
     margin-top: 0px ;
     background-color:lightgreen;
     background-size: cover;
-    border: 6px solid orange;   
+    border: 6px solid green;   
 max-width: 550px;
 height: 400px;
 position: relative;
