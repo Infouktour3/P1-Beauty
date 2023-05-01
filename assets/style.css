@@ -86,9 +86,12 @@ html, body {
      margin: 0%;
     overflow: hidden;
     position: relative; 
+}
+#beauty-image img{
     height:300px;
     width: 100%;
 }
+
 
 #welcome {
     text-align: center;
@@ -192,7 +195,8 @@ font-size: 16px;
     overflow: hidden;
 }
 
-#times div {
+#times span {
+    box-sizing:inline;
     float: left;
     color: white;
     background-color: lightgrey;
@@ -202,8 +206,11 @@ font-size: 16px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-    
 }
+.centro img {
+    height:250px ;
+    width: 250px;}
+
 #times h2 {
     font-size: 25px;
     color: lightcoral;
@@ -278,6 +285,7 @@ margin:0.5%; }
     overflow: hidden;
     clear:both;
     background-color: lightgoldenrodyellow;
+  background-size: cover;
     word-spacing: 5%;
     }
    
@@ -286,7 +294,7 @@ margin:0.5%; }
     float: right;
     overflow:hidden;
 height: 95%;
-    border: 4px solid lightgreen;
+    border: 6px solid orange;
     padding: 10px;
     clear:both;
     max-width: 800px;
@@ -309,7 +317,7 @@ height: 95%;
     margin-top: 0px ;
     background-color:lightgreen;
     background-size: cover;
-    border: 1px solid blue;   
+    border: 6px solid orange;   
 max-width: 550px;
 height: 400px;
 position: relative;
@@ -327,7 +335,7 @@ color: white;
 width: 100%;
 height: 25px;
 margin: 5px 0 20px 0;
-border: 1px solid #fafafa;
+border: 1px solid pink;
 border-radius: 2px;}
 
 #form label {
