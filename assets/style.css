@@ -1,34 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
-}
-
-*body{
+html, body {
+    margin: 0;
+   padding: 0;
     font-family: Lato, sans-serif;
     color: #3a3a3a;
 }
 
-
-*h1, h2{
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-}
-
-#en-US {
-    font-family: Lato, sans-serif;}
-
-#en-US h1, h2{
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-}
 #head {
+    font-family: Oswald, sans-serif;
     clear:both;
     overflow: hidden;
     height: 200%;
@@ -38,6 +17,9 @@
 }
 
 #title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
     display: block;
     max-width: auto;
     margin: 0, auto;
@@ -176,7 +158,7 @@ font-size: 16px;
     padding: 10px;
     background-color: beige;
 }
-    #picture h2 {
+    #picture span {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -184,7 +166,7 @@ font-size: 16px;
             margin: 0%;}
 
 
-         #picture-1 h2 {
+         #picture-1 span {
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
@@ -202,8 +184,7 @@ font-size: 16px;
             height: 800%;
         }
 
-#times{
-    background-image: url('C:\Users\LENOVO\Downloads\pexels-delbeautybox-853427.jpg');
+#times {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -242,17 +223,10 @@ font-size: 16px;
     color: gray;
 }
 
-#map {
-    height: 400px;
-    width: 100%;
+#times  img{
+    height: auto;  
+    width: auto;
   }
-  
-  #times #map img{
-    height: 300px;
-    width: 100%;
-    overflow: hidden;
-  }
-
 
 
 #photo {
@@ -261,6 +235,8 @@ font-size: 16px;
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
+    margin: 0.5%;
+   
 }
 
 #photo-1 {
@@ -269,6 +245,8 @@ font-size: 16px;
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
+    margin: 0.5% ;
+
 }
 #photo2 {
     height: 200px;
@@ -276,22 +254,25 @@ font-size: 16px;
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
+    margin: 0.5% ;
 }
 
 #photo img{
+    display:inline-block;
     height: 200px;
     width: 100%;
+    margin:0.5%;
 }
+
 #photo-1 img {
     height: 200px;
-    width: 100%;   }
+    width: 100%;  
+margin:0.5%; }
 
     #photo2 img {
         height: 200px;
-        width: 100%;   } 
-
-
-
+        width: 100%; 
+     } 
 
     #form {
         padding: 100px;
@@ -371,13 +352,14 @@ border-radius: 2px;}
 .join-button:hover {background-color: #fafafa;
     color: #f16c6b;}
     
-    #footer{
+    #footer {
         position:absolute;
+        clear: both;
         background-repeat: no-repeat;
          background-size: cover;
         overflow: hidden;
         height: 100px;
-        width: 98.8%;
+        width: 100%;
         background: radial-gradient(circle, pink, gray);
         text-align: center;        
     }
