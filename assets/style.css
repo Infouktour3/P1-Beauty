@@ -282,12 +282,12 @@ margin:0.5%; }
     }
    
     
-#form div {
+.address {
     float: right;
     overflow:hidden;
-height: 74%;
+height: 95%;
     border: 4px solid lightgreen;
-    padding: 20px;
+    padding: 10px;
     clear:both;
     max-width: 800px;
     margin-right: 40px;
@@ -295,8 +295,8 @@ height: 74%;
     padding: 40px;
     background-color:lightgoldenrodyellow;
     border-radius: 20%;
-    
 }
+
 #form span {
     color: red;
 }
