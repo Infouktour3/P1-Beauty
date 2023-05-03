@@ -1,23 +1,9 @@
 
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-html{
+* {
     margin:0;
-    padding:0;
-    border:0;
-}
-
-body{
-    font-family: Lato;
-    color: #777777;
-}
-
-h2{
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #555555;
-}
-
+    padding:0;}
 
 #head {
     font-family: Oswald, sans-serif;
@@ -311,15 +297,33 @@ border: 2px solid pink;
     clear:both;
     background: radial-gradient(circle,lightgreen,lightgoldenrodyellow, white, lightblue);
   background-size: cover;
-    word-spacing: 5%;
     }
-   
+
+    #cover-text, #cover-text h2 {
+        color: #ffffff;
+    }
     
+    #cover-text {
+        float: center;
+        font-size: 80%;
+        font-family: Oswald;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        width: 200px;
+        height: 150px;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: rgba(241, 109, 107, .7);
+        padding-bottom: 20px;
+        margin-bottom: 5%;
+        
+    }
+
 .address {
     float: right;
     overflow:hidden;
 height: 95%;
-    border: 6px solid blue;
+    border: 6px solid pink;
     padding: 10px;
     clear:both;
     max-width: 800px;
@@ -327,7 +331,8 @@ height: 95%;
     text-align: left;
     padding: 40px;
     border-radius: 20%;
-    a
+    background-color: lightgoldenrodyellow;
+    
 }
 
 #form span {
@@ -340,9 +345,9 @@ height: 95%;
 .get-in-touch {
     overflow:hidden;
     margin-top: 0px ;
-    background-color:lightgreen;
+    background-color:burlywood;
     background-size: cover;
-    border: 6px solid blue;   
+    border: 6px solid pink;   
 max-width: 550px;
 height: 400px;
 position: relative;
@@ -364,7 +369,7 @@ border: 1px solid red;
 border-radius: 2px;}
 
 #form label {
-    color: blue;
+    color: lightgoldenrodyellow;
 }
 
 .text-input:hover{ border-color: #cdf16b;}
