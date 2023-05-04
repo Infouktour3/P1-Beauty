@@ -78,61 +78,60 @@ body {
     height:300px;
     width: 100%;}
    
-#welcome {
+    #welcome {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-color: lightgoldenrodyellow;
+        width: 100%;
+        overflow: hidden; }
     
-    background: radial-gradient(circle, lightgoldenrodyellow, white, lightgray);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 200%;
-    width: 100%;
-    padding: 2px;
-}
-
-
-    #welcome h2 {
+    
+    
+    #welcome div {
+        overflow: hidden;
+        width: 50%;
+        height: 400px;
+        float: left;
+        padding: 20px 10px 2px 10px;
         text-align: center;
-        color: black;
-        
+        box-sizing: border-box;
+    }
+    
+    #welcome h2{
+        text-align: center;
+    color: orangered;
+    padding-top: 6px;
+    
     }
 
-
-#welcome div {
+    #welcome h3{
+        text-align: center;
+    color: lightcoral;
+    padding-top: 6px;
     
-    width: 50%;
-    height: 400px;
-    float: left;
-    padding: 20px 10px 2px 10px;
-    box-sizing: border-box;
-}
-
-#welcome h2{
-    text-align: center;
-color: lightcoral;
-padding-top: 6;
-
-}
-
-#welcome p {
-    overflow: hidden;
-    padding: 6%;
-    color: lightseagreen;
-    text-align: justify;
-    word-spacing: 4px;
-text-transform: uppercase;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 16px;
-    line-height: 1.5;
-    border: 3px pink solid;
-}
-
-#welcome hr {
-    border-top: 4px solid pink;
-    width: auto;
-    margin: 5px 5px 5px 5px;
-    float: center;
-}
-
+    }
+    
+    #welcome p {
+        padding: 6%;
+        color: lightseagreen;
+        letter-spacing: 2px;
+        text-align: justify;
+        word-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+        line-height: 1.5;
+        border: 3px pink solid;
+    }
+    
+    #welcome hr {
+        border-top: 4px solid pink;
+        width: auto;
+        margin: 5px 5px 5px 5px;
+        float: center;
+    }
+    
 
 #apollo {
     column-count: 2;
