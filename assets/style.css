@@ -279,7 +279,6 @@ border: 2px solid pink;
         height: 400px;
        max-width: 100%;
     overflow: hidden;
-    clear:both;
     background: radial-gradient(circle,lightgreen,lightgoldenrodyellow, white, lightblue);
   background-size: cover;
     }
@@ -330,7 +329,7 @@ height: 95%;
 .get-in-touch {
     overflow:hidden;
     margin-top: 0px ;
-    background-color:burlywood;
+    background-color:lightpink;
     background-size: cover;
     border: 6px solid pink;   
 max-width: 550px;
