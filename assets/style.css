@@ -23,12 +23,13 @@ body {
      
         #logo {
             margin-top: 22px;
+            margin-left: 10px;
             text-transform: none;
             float: left;
             font-size: 200%;
             color:white;
             border: 6px solid lightgoldenrodyellow;
-            border-radius: 40px;
+            border-radius: 20px;
             background-color:pink;
         }
         #top h2:hover{
@@ -165,11 +166,13 @@ font-size: 16px;
         }
 
 #times {
+    column-count: 1;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    width: 100%;
+    
     overflow: hidden;
+    width: 100%;
+    height: 350px;
 }
 
 #times span {
@@ -184,19 +187,18 @@ font-size: 16px;
     box-sizing: border-box;
 }
 #times .centro {
-shape-image-threshold: inherit;
-        overflow:hidden;  
-    }
+    background-repeat: no-repeat;
+    background-size: cover;
+            overflow:hidden;  
+            margin: 0%;
+            align: center;
+                    }
 
 
 #times img {
-    background-repeat: no-repeat;
-    background-size: cover;
- margin: 0%;
 overflow: hidden;
-position: relative; 
     height:250px ;
-    width: 350px;}
+    width: 300px;}
 
 #times h2 {
     font-size: 25px;
@@ -403,7 +405,7 @@ border-radius: 2px;}
     .social-networks i{
         position:relative;
         text-align: center;
-        font-size: 140%;
+        font-size: 120%;
         padding: 3%;
         color: gray;
         letter-spacing: 8px;
