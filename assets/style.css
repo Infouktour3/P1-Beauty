@@ -21,7 +21,7 @@ body {
     background: radial-gradient(circle, pink, gray);
 }
      
-        #logo {
+        #top1 {
             margin-top: 22px;
             margin-left: 10px;
             text-transform: none;
@@ -32,7 +32,7 @@ body {
             border-radius: 20px;
             background-color:pink;
         }
-        #top h2:hover{
+        #top h1:hover{
             color:lightsalmon;
         }
         #top a:hover{
@@ -90,7 +90,7 @@ body {
 }
 
 
-    #welcome h1 {
+    #welcome h2 {
         text-align: center;
         color: black;
         
@@ -133,21 +133,23 @@ font-size: 16px;
     float: center;
 }
 
+
 #apollo {
     column-count: 2;
     padding: 10px;
     background: radial-gradient(circle, lightgoldenrodyellow, white, lightgray);
    
 }
-    #picture span {
-        background-repeat: no-repeat;
+
+    #picture  {
+                background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
         overflow: hidden; 
             margin: 0%;}
 
 
-         #picture-1 span {
+         #picture-1  {
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
@@ -165,61 +167,55 @@ font-size: 16px;
             height: 800%;
         }
 
-#times {
-    column-count: 1;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    overflow: hidden;
-    width: 100%;
-    height: 350px;
-}
-
-#times span {
-    float: left;
-    display: inline-block;
-    background: radial-gradient(circle, pink, white);
-    width: 33.33%;
-    height: 350px;
-    padding: 60px 0px 0px 20px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-#times .centro {
-    background-repeat: no-repeat;
-    background-size: cover;
-            overflow:hidden;  
-            margin: 0%;
-            align: center;
-                    }
-
-
-#times img {
-overflow: hidden;
-    height:250px ;
-    width: 300px;}
-
-#times h2 {
-    font-size: 25px;
-    color: lightcoral;
-}
-
-#times p{
-    font-weight: bold;
-    font-size: 25px;
-    position: relative;
-    color: whitesmoke;
-}
-#times h3{
-    font-size: 20px;
-}
-#times h4 {
-    font-size: 15px;
-    color: gray;
-}
-
-
+        #times{
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        #times div {
+            float: left;
+            color: white;
+            background-color: pink;
+            width: 33.33%;
+            height: 350px;
+            padding: 60px 0px 0px 20px;
+            text-align: center;
+            border: 2px solid white;
+            box-sizing: border-box;
+            
+        }
+        #times h2 {
+            font-size: 25px;
+            color: lightcoral;
+        }
+        
+        #times p{
+            font-weight: bold;
+            font-size: 25px;
+            position: relative;
+            color: whitesmoke;
+        }
+        #times h3{
+            font-size: 20px;
+        }
+        #times h4 {
+            font-size: 15px;
+            color: gray;
+        }
+        
+        #map {
+            height: 400px;
+            width: 33.33%;
+          }
+          
+          #map img{
+            height: 400px;
+            width: 33.33%;
+          }
+        
 
 #photo {
     overflow: hidden;
@@ -394,7 +390,6 @@ border-radius: 2px;}
         border: 5px solid lightgoldenrodyellow;
         border-radius: 10px;
         background-color: pink;
-       
         overflow:hidden;
     }
 
