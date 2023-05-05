@@ -205,12 +205,10 @@ body {
             color: gray;
         }
         
-        #map {
-            height: 400px;
-            width: 33.33%;
-          }
+        
           
-          #map img{
+          #times img{
+            overflow: hidden;
             height: 400px;
             width: 33.33%;
           }
