@@ -1,14 +1,82 @@
 
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
-* {
-    margin:0;
+*{
+    padding:0;
+    border:0;}
+
+/* Define styles for small screens */
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+    .section {
+        width: 100%;
+        padding: 10px;
+      }
+    .div {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .column {
+      width: 100%;
+    }
+  }
+  
+  /* Define styles for medium screens */
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+    .section {
+        width: 80%;
+        padding: 20px;
+      }
+    
+    .div {
+      width: 80%;
+      padding: 20px;
+    }
+    
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Define styles for large screens */
+  @media screen and (min-width: 900px) and (max-width: 1393px) {
+    body {
+      font-size: 20px;
+    }
+
+    .section {
+        width: 60%;
+        padding: 30px;
+      }
+    
+    .div {
+      width: 60%;
+      padding: 30px;
+    }
+    
+    .column {
+      width: 33.33%;
+    }}
+
+body{
+    font-family: Lato, sans-serif;
+    color: #3a3a3a;
 }
 
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+h1, h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
 }
+
 
 
 #top {
@@ -46,8 +114,8 @@ body {
     padding: 60px;
 }
 
-#logo #menu{
-    line-height: 25px;
+#top #menu{
+    line-height: 10px;
 }
 
 #menu li {
@@ -78,6 +146,14 @@ body {
     height:300px;
     width: 100%;}
    
+
+    @media screen and (max-width: 1200px) {
+        #welcome {
+            width: 65%;
+            height: 600px;
+            margin: o auto,}
+        }
+
     #welcome {
         background-repeat: no-repeat;
         background-size: cover;
@@ -120,7 +196,7 @@ body {
         word-spacing: 1px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
         line-height: 1.5;
         border: 3px pink solid;
     }
@@ -128,14 +204,14 @@ body {
     #welcome hr {
         border-top: 4px solid pink;
         width: auto;
-        margin: 5px 5px 5px 5px;
+        margin: 5px;
     }
     
 
 #apollo {
     column-count: 2;
-    padding: 10px;
-    background: radial-gradient(circle, lightgoldenrodyellow, white, lightgray);
+    padding: 8px;
+    background-color:  lightgoldenrodyellow;
    
 }
 
@@ -165,6 +241,8 @@ body {
             height: 800%;
         }
 
+        
+
         #times{
             background-repeat: no-repeat;
             background-size: cover;
@@ -185,6 +263,7 @@ body {
             box-sizing: border-box;
             
         }
+
         #times h2 {
             font-size: 25px;
             color: lightcoral;
@@ -207,11 +286,15 @@ body {
         
           
           #times img{
+            float: left;
+            clear: both;
             overflow: hidden;
-            height: 400px;
-            width: 33.33%;
+            height: 200px;
+            width: 400px;
+            margin: 0 auto;
           }
         
+
 
 #photo {
     overflow: hidden;
@@ -388,6 +471,11 @@ border-radius: 2px;}
         overflow:hidden;
     }
 
+    .logo-footer h2:hover {
+        color:#f16c6b;
+    }
+
+
     .social-networks li{
         display: inline;
     }
@@ -396,7 +484,7 @@ border-radius: 2px;}
         position:relative;
         text-align: center;
         font-size: 120%;
-        padding: 3%;
+        padding: 2%;
         color: gray;
         letter-spacing: 8px;
         overflow:hidden;
@@ -417,51 +505,7 @@ border-radius: 2px;}
             margin-right: 30px;
             overflow:hidden;
     } 
-    
-
-/* Define styles for small screens */
-@media screen and (max-width: 600px) {
-    body {
-      font-size: 16px;
+    .tel h3:hover {
+        color:#f16c6b;
     }
     
-    .container {
-      width: 100%;
-      padding: 10px;
-    }
-    
-    .column {
-      width: 100%;
-    }
-  }
-  
-  /* Define styles for medium screens */
-  @media screen and (min-width: 600px) and (max-width: 1200px) {
-    body {
-      font-size: 18px;
-    }
-    
-    .container {
-      width: 80%;
-      padding: 20px;
-    }
-    
-    .column {
-      width: 50%;
-    }
-  }
-  
-  /* Define styles for large screens */
-  @media screen and (min-width: 1200px) {
-    body {
-      font-size: 20px;
-    }
-    
-    .container {
-      width: 60%;
-      padding: 30px;
-    }
-    
-    .column {
-      width: 33.33%;
-    }}
