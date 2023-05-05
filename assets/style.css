@@ -129,7 +129,6 @@ body {
         border-top: 4px solid pink;
         width: auto;
         margin: 5px 5px 5px 5px;
-        float: center;
     }
     
 
@@ -283,7 +282,6 @@ border: 2px solid pink;
     }
     
     #cover-text {
-        float: center;
         font-size: 80%;
         font-family: Oswald;
         text-transform: uppercase;
@@ -409,7 +407,6 @@ border-radius: 2px;}
     }
 
     .tel {
-        letter-spacing: 4%;
         text-align: right;
         font-weight: bold;
         padding: 0px;

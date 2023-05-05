@@ -83,6 +83,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://validator.w3.org/) - [Results](https://github.com/)
 
-d
+### Code
+
+- html and css were written through github (https://github.com/Code-Institute-Solutions/GitHub/tree/master/04-readme_files/challenge_solution) workspace/repositories
+
+### Content
+
+-   All content was written by myself.
+
+### Media
+
+-   All Images were founded in Pexels.com (https://www.pexels.com/) and ammend accordely by myself.
+
+### Acknowledgements
+
+-   To the tutor support at Code Institute.
 
 - 
