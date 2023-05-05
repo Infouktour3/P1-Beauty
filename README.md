@@ -75,6 +75,8 @@ This is the main Beauty Salon website. It is designed to be responsibe and acces
     - Pexels was used to add clean images to the website expecialy on the home page and gallery.to resize the image I used the laptop correction photo.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was visited to gather some idea on starting the design process even if I used my imagination at the end.
+1.  [jQuery:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - jQuery find some information in bootstrap and in code istitue(https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/b47eaee24847486eb4424dfa29890cc0/)  on use to have a responsive website for different devices.
 
 ## Testing
 
