@@ -2,95 +2,51 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
 
 * {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
+    box-sizing: border-box;
   }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
+  
+  body {
+    margin: 0;
+    font-family: Arial;
   }
-}
-
-
-/* Define styles for small screens */
-@media screen and (min-width: 300px) and (max-width: 600px) {
-    body {
-      font-size: 16px;
-    }
-    .section {
-        width: 100%;
-        padding: 10px;
-      }
-    .div {
-      width: 100%;
-      padding: 10px;
-    }
-    
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
     .column {
-      width: 100%;
+      flex: 50%;
+      max-width: 50%;
     }
   }
   
-
- 
-  /* Define styles for large screens */
-  @media screen and (min-width: 900px) and (max-width: 1393px) {
-    body {
-      font-size: 20px;
-    }
-
-    .section {
-        width: 60%;
-        padding: 30px;
-      }
-    
-    .div {
-      width: 60%;
-      padding: 30px;
-    }
-    
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
     .column {
-      width: 33.33%;
+      flex: 100%;
+      max-width: 100%;
     }}
-
 
 
 h1, h2{
@@ -328,7 +284,7 @@ h1, h2{
           }
         
 
-.list-photo {
+.row {
         display: flex;
         flex-direction: column;
       }
@@ -336,65 +292,18 @@ h1, h2{
 .photo {
     overflow: hidden;
     height: 200px;
-    clear: both;
-    line-height: 0;
     column-count: 3;
-    column-gap: 6px;
     margin:0.3%;  
     border-bottom: 2px solid pink;
 }
 
-.photo-1 {
-    overflow: hidden;
-    height: 200px;
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 6px;
-    margin:0.3%;  
-    border-bottom: 2px solid pink;
-}
-.photo2 {
-    overflow: hidden;
-    height: 200px;
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 6px; 
-    margin:0.3%;  
-    border-bottom: 2px solid pink;
-
-}
-
-.photo img{
-    height: 200px;
-    width: 100%;
-    margin:0.3%;
-    border: 2px solid pink;
-}
-
-.photo-1 img {
-    height: 200px;
-    width: 100%;  
-margin:0.3%;
-border: 2px solid pink;
-}
-
-    .photo2 img {
-        height: 200px;
-        width: 100%; 
-        margin: 0.3%;
-        border: 2px solid pink;
-     } 
 
  /* Responsive layout - makes a one column layout instead of a two-column layout */
  @media (max-width: 800px) {
-    .list-photo{
+    .row {
       flex-direction: column;
     }
-    .photo img {
-        flex-direction: column;
-    }}
+    }
 
 
     #form {
