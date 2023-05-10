@@ -57,7 +57,7 @@ h1, h2{
 }
 
 
-
+/* Header */
 #top {
     font-family: Oswald, sans-serif;
     clear:both;
@@ -112,6 +112,8 @@ h1, h2{
     
 }
 
+/* first section under the header */
+
 #beauty-image {
     background-repeat: no-repeat;
         background-size: cover;
@@ -131,6 +133,9 @@ h1, h2{
             height: 600px;
             margin: o auto,}
         }
+
+  
+        /* second section under the image section */
 
     #welcome {
         background-repeat: no-repeat;
@@ -197,6 +202,10 @@ h1, h2{
         }
     }
 
+
+/* 3th section picture under the about us section */
+
+
 #apollo {
     column-count: 2;
     padding: 8px;
@@ -238,6 +247,8 @@ h1, h2{
             width: 100%;
             overflow: hidden;
         }
+
+        /* timetable and map */
         
         #times div {
             float: left;
@@ -283,7 +294,7 @@ h1, h2{
             margin: 0 auto;
           }
         
-
+/* Gallery page */
 .row {
         display: flex;
         flex-direction: column;
@@ -305,7 +316,7 @@ h1, h2{
     }
     }
 
-
+    /* Contact Us page */
     #form {
         column-count: 2;
         padding: 100px;
@@ -316,6 +327,8 @@ h1, h2{
   background-size: cover;
     }
 
+
+    /* address box */
     #cover-text, #cover-text h2 {
         color: #ffffff;
     }
@@ -351,13 +364,14 @@ height: 95%;
     
 }
 
+
+/* Fill Form */
 #form span {
     color: red;
 }
 #form h3 {
     color: gray;
 }
-
 .get-in-touch {
     overflow:hidden;
     margin-top: 0px ;
@@ -401,7 +415,9 @@ border-radius: 2px;}
     
 .join-button:hover {background-color: #fafafa;
     color: #f16c6b;}
-    
+
+
+    /* Footer bar */
     #footer {
         position:absolute;
         clear: both;
