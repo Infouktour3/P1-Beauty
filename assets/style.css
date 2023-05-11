@@ -98,8 +98,7 @@ h2 {
 @media screen and (max-width: 1200px) {
     #welcome {
         width: 65%;
-        height: 600px;
-        margin: o auto,
+        margin: 0 auto,
     }
 }
 
@@ -120,7 +119,6 @@ h2 {
     border: 2px solid pink;
     overflow: hidden;
     width: 50%;
-    height: 400px;
     float: left;
     padding: 20px 10px 2px 10px;
     text-align: center;
@@ -223,12 +221,13 @@ h2 {
 /* timetable and map */
 
 #times div {
+
     float: left;
     color: white;
     background-color: pink;
     width: 33.33%;
     height: 350px;
-    padding: 60px 0px 0px 20px;
+    padding: 60px 20px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
@@ -264,8 +263,10 @@ h2 {
     clear: both;
     overflow: hidden;
     height: 200px;
-    width: 200px;
     margin: 0 auto;
+}
+#map {
+    display: flex;
 }
 
 /* Gallery page */
@@ -483,7 +484,16 @@ h2 {
     color: #f16c6b;
 }
 
+
+
+
 /* Responsive layout - for nav bar */
+@media (max-width: 900px) {
+    #times div{
+        width: 50%;
+    }
+}
+
 @media (max-width: 600px) {
     #top #menu {
         display: flex;
@@ -492,11 +502,7 @@ h2 {
         max-width: 50%;
         flex-direction: column;
     }
-}
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .text-input:hover {
-        flex: 100%;
-        max-width: 100%;
+    #times div{
+        width: 100%;
     }
 }
