@@ -6,45 +6,10 @@ body {
     margin: 0;
     font-family: Arial;
 }
-
 .header {
     text-align: center;
     padding: 32px;
 }
-
-
-
-/* Responsive layout - for nav bar */
-@media (max-width: 600px) {
-    #top, #menu{
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-@media (max-width: 800px) {
-    #top, #menu{
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-@media (max-width: 1200px) {
-    #top, #menu{
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .text-input:hover {
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
 
 h1,
 h2 {
@@ -90,7 +55,7 @@ h2 {
     letter-spacing: 2px;
     color: white;
     font-weight: bold;
-    padding: 60px;
+    padding: 10px;
 }
 
 #top #menu {
@@ -516,4 +481,22 @@ h2 {
 
 .tel h3:hover {
     color: #f16c6b;
+}
+
+/* Responsive layout - for nav bar */
+@media (max-width: 600px) {
+    #top #menu {
+        display: flex;
+        line-height: 20px;
+        padding: 0px;
+        max-width: 50%;
+        flex-direction: column;
+    }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .text-input:hover {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
