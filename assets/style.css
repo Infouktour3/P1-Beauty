@@ -301,9 +301,9 @@ h2 {
 
 /* Contact Us page */
 #form {
-    column-count: 2;
-    padding: 100px;
-    height: 400px;
+    
+    padding: 30px;
+    height: 500px;
     max-width: 100%;
     overflow: hidden;
     background: radial-gradient(circle, lightgreen, lightgoldenrodyellow, white, lightblue);
@@ -358,15 +358,16 @@ h2 {
 }
 
 .get-in-touch {
+    align-items:center;
     overflow: hidden;
     margin-top: 0px;
     background-color: lightpink;
     background-size: cover;
     border: 6px solid pink;
-    max-width: 550px;
-    height: 300px;
-    float: right;
-    padding: 30px;
+    max-width: 800px;
+    height: 450px;
+    padding: 10px;
+    margin-bottom: 10%;
 }
 
 .get-in-touch h2 {
@@ -412,17 +413,34 @@ h2 {
 @media only screen and (min-width: 600px) {
     
     #form {
+        display:flex;
         width: 100%
     } 
     .address{
         width: 100%;
     }
     .get-in-touch{
-        width: 50%;
+     
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 900px) {
+    
+    #form {
+        display:flex;
+        width: 100%
+    } 
+    .address{
+        width: 100%;
+    }
+    .get-in-touch{
+        
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
     
     #form {
         width: 100%
@@ -431,7 +449,7 @@ h2 {
         width: 100%;
     }
     .get-in-touch{
-        width: 50%;
+        width: 100%;
     }
 }
 
