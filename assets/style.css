@@ -51,6 +51,7 @@ h2 {
 }
 
 #menu {
+    margin-top: 2%;
     font-size: 90%;
     letter-spacing: 2px;
     color: white;
@@ -436,6 +437,7 @@ h2 {
 }
 
 .social-networks i {
+    margin-right: 20px;
     float:right;
     position: relative;
     text-align: center;
@@ -452,14 +454,12 @@ h2 {
 }
 
 .tel {
-    text-height: 65%;
     font-weight: bold;
-    padding: 0px;
     color: white;
     float: left;
-    font-size: 100%;
-    margin-top: 40px;
-    margin-left: 30px;
+    font-size: 130%;
+    margin-top: 35px;
+    margin-left: 25px;
     overflow: hidden;
 }
 
