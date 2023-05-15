@@ -301,7 +301,6 @@ h2 {
 
 /* Contact Us page */
 #form {
-    
     padding: 30px;
     height: 500px;
     max-width: 100%;
@@ -358,13 +357,12 @@ h2 {
 }
 
 .get-in-touch {
-    align-items:center;
-    overflow: hidden;
+    
     margin-top: 0px;
     background-color: lightpink;
     background-size: cover;
-    border: 6px solid pink;
-    max-width: 800px;
+    border: 6px solid whitesmoke;
+    max-width: 1000px;
     height: 450px;
     padding: 10px;
     margin-bottom: 10%;
