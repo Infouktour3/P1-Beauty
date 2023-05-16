@@ -392,7 +392,7 @@
 /* Footer bar */
 #footer {
     clear: both;
-    background-repeat: no-repeat 0;
+    background-repeat: no-repeat;
     overflow: hidden;
     height: 100px;
     width: 100%;

@@ -83,8 +83,8 @@ This is the main Beauty Salon website. It is designed to be responsibe on a rang
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of html and css of the project to ensure there were no syntax errors.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/)
--   [W3C CSS Validator](https://validator.w3.org/) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/nu/#textarea) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) - [Results](https://github.com/)
 
 ### Code
 
