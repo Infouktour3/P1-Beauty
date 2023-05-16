@@ -279,49 +279,13 @@
 
 /* Contact Us page */
 #form {
+    overflow: hidden;
     border: hidden;
     padding: 0px;
-    height: 500px;
+    height: 600px;
     width: 100%;
     background: radial-gradient(circle, lightgreen, lightgoldenrodyellow, white, lightblue);
     background-size: cover;
-}
-
-
-/* address box */
-#cover-text,
-#cover-text h2 {
-    color: #ffffff;
-}
-
-#cover-text {
-    font-size: 80%;
-    font-family: Oswald;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 200px;
-    height: 150px;
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: rgba(241, 109, 107, .7);
-    padding-bottom: 20px;
-    margin-bottom: 5%;
-
-}
-
-.address {
-    float: left;
-    overflow:hidden;
-    height: 600px;
-    border: 6px solid pink;
-    padding: 10px;
-    max-width: 800px;
-    margin-right: 40px;
-    text-align: left;
-    padding: 20px;
-    border-radius: 5%;
-    background-color: lightgoldenrodyellow;
-
 }
 
 
@@ -335,14 +299,15 @@
 }
 
 .get-in-touch {
+    overflow: hidden;
     margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: lightpink;
-    border: 6px solid silver;
-    max-width: 700px;
-    height: 420px;
-    padding: 10px;
+    border: 6px solid rgb(233, 228, 228);
+    max-width: 1100px;
+    height: 450px;
+    padding: 30px;
     
 }
 
@@ -392,9 +357,7 @@
         display:flex;
         width: 100%
     } 
-    .address{
-        width: 100%;
-    }
+ 
     .get-in-touch{
      
         width: 100%;
@@ -407,9 +370,7 @@
         display:flex;
         width: 100%
     } 
-    .address{
-        width: 100%;
-    }
+   
     .get-in-touch{
         
         width: 100%;
