@@ -335,15 +335,15 @@
 }
 
 .get-in-touch {
-    
-    margin-top: 0px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     background-color: lightpink;
-    background-size: cover;
-    border: 6px solid whitesmoke;
-    max-width: 500px;
-    height: 450px;
+    border: 6px solid silver;
+    max-width: 700px;
+    height: 420px;
     padding: 10px;
-    margin-bottom: 10%;
+    
 }
 
 .get-in-touch h2 {
