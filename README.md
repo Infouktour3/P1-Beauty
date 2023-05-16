@@ -1,7 +1,7 @@
 # P1-Beauty
 !(Mock Up) (/workspace/P1-Beauty/.docs/All-devices- TESTED.png) (https://infouktour3-p1beauty-4tskpblh22f.ws-eu97.gitpod.io/)
 
-[View the live project here.](https://8000-infouktour3-p1beauty-pc8yafcytib.ws-eu96b.gitpod.io/index.html)
+[View the live project here.](https://8000-infouktour3-p1beauty-4tskpblh22f.ws-eu97.gitpod.io/index.html)
 
 This is the main Beauty Salon website. It is designed to be responsibe on a range of devices, making it easy to navigate to the reader and visitors.
 
