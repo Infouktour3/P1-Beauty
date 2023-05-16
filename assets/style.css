@@ -421,20 +421,17 @@
     #form {
         width: 100%
     } 
-    .address{
-        width: 100%;
-    }
+    
     .get-in-touch{
         width: 100%;
-    }
-}
+    }}
+
 
 
 /* Footer bar */
 #footer {
-    position: absolute;
     clear: both;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat 0;
     overflow: hidden;
     height: 100px;
     width: 100%;
